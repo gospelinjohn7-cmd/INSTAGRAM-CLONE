@@ -30,7 +30,7 @@ function Login() {
   const handleclick=async(e)=>{
     e.preventDefault()
     try
-    {const response=await axios.post('http://127.0.0.1:8000/login',Login)
+    {const response=await axios.post('http://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/login',Login)
     console.log("credentials send")
     console.log(response.data)
     const token=response.data.access_token

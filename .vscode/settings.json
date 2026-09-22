@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4c006b15-d1c5-4241-b6e1-9e618a51992f/resourceGroups/appsvc_linux_centralindia/providers/Microsoft.Web/sites/Instaclone",
+    "appService.deploySubpath": "."
+}
