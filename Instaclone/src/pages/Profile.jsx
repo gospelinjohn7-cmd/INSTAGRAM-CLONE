@@ -71,7 +71,7 @@ function Profile() {
     const handleclick =async ()=>{
         const token=localStorage.getItem("token")
 
-        axios.put(`http://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/profile/${Profile.id}`,Profile,{
+        axios.put(`https://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/profile/${Profile.id}`,Profile,{
             headers:{
                 Authorization:`Bearer ${token}`
             }
