@@ -34,7 +34,7 @@ function Login() {
     console.log("credentials send")
     console.log(response.data)
     const token=response.data.access_token
-    localStorage.setItem("token",token)cd
+    localStorage.setItem("token",token)
     navigate('/app')
   
   
