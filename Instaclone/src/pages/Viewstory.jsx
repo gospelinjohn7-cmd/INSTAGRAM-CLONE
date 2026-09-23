@@ -12,7 +12,7 @@ function Viewstory() {
 
   useEffect(()=>{
     const token=localStorage.getItem("token")
-    fetch(`https://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/story/${id}`,{
+    fetch(`https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net/story/${id}`,{
             headers:{
                 Authorization:`Bearer ${token}`
             }

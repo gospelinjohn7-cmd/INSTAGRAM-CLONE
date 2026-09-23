@@ -71,7 +71,7 @@ function Profile() {
     const handleclick =async ()=>{
         const token=localStorage.getItem("token")
 
-        axios.put(`https://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/profile/${Profile.id}`,Profile,{
+        axios.put(`https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net/profile/${Profile.id}`,Profile,{
             headers:{
                 Authorization:`Bearer ${token}`
             }
@@ -81,7 +81,7 @@ function Profile() {
 
     const handleunfolow=async(id)=>{
         const token=localStorage.getItem("token")
-        axios.delete(`instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/followers/${id}`,{
+        axios.delete(`https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net/followers/${id}`,{
             headers:{
                 Authorization:`Bearer ${token}`
             }
@@ -93,7 +93,7 @@ function Profile() {
     }
     const handleonclick=async (id,username)=>{
       const token=localStorage.getItem("token")
-      axios.post('instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/followers',{"id":id,"username":username},{
+      axios.post('https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net/followers',{"id":id,"username":username},{
             headers:{
                 Authorization:`Bearer ${token}`
             }

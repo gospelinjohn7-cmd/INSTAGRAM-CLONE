@@ -22,8 +22,9 @@ function Register() {
 
     const submit=async(e)=>{
         e.preventDefault()
-        axios.post('https://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net/users',register)
-        .then(()=>console.log("user created"))        
+        axios.post('https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net/users',register)
+        .then(()=>console.log("user created"))     
+
 
     }
 

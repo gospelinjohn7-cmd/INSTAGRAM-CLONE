@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
     const api= axios.create({
-        baseURL:"https://instagramclone-frg6hsahhjhxh6em.eastasia-01.azurewebsites.net"
+        baseURL:"https://instaclonebackend-asguh9gde2ejd6b7.eastasia-01.azurewebsites.net"
     })
 
     api.interceptors.request.use((config)=>{
