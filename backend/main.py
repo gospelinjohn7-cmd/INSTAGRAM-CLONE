@@ -31,7 +31,7 @@ app=FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://red-river-057549b00.5.azurestaticapps.net"],
     allow_methods=["*"],
     allow_headers=["*"],
     allow_credentials=True
